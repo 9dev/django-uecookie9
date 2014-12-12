@@ -31,5 +31,6 @@ setup(
     ],
 	install_requires = [
 		'django >= 1.6.5',
+        'pygeoip >= 0.3.2',
     ],
 )
