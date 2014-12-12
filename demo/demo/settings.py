@@ -40,6 +40,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django.contrib.sites',
+    'django.contrib.flatpages',
+
 	'debug_toolbar',
 	'uecookie9',
 	'main',
@@ -95,4 +98,4 @@ TEMPLATE_CONTEXT_PROCESSORS = settings.TEMPLATE_CONTEXT_PROCESSORS + (
     'django.core.context_processors.request',
 )
 
-
+SITE_ID = 1
