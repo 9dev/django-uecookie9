@@ -7,3 +7,4 @@ dist/*
 todo.txt
 .project
 .pydevproject
+makefile
