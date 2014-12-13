@@ -13,9 +13,9 @@ setup(
     packages=['uecookie9'],
     include_package_data=True,
     license='MIT License',
-    description='Another Django app', # @todo app description
+    description='Django app that shows notification about cookies to UE citizens.', 
     long_description=README,
-    url='https://pypi.python.org/pypi/django-uecookie9', # @todo change to github repo ?
+    url='https://github.com/9dev/django-uecookie9',
     author='9dev',
     author_email='9devmail@gmail.com',
     classifiers=[
@@ -30,7 +30,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
 	install_requires = [
-		'django >= 1.6.5',
+		'django >= 1.4',
         'pygeoip >= 0.3.2',
     ],
 )
