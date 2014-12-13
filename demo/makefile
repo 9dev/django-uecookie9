@@ -55,3 +55,11 @@ createadmin:
 		echo "from django.contrib.auth.models import User; User.objects.create_superuser('admin', 'admin@example.com', 'admin')" | $(PYTHON_COMMAND) manage.py shell; \
 	)
 
+#
+
+uecookie9:
+	( \
+		. $(VENV_PATH)/bin/activate; \
+		$(PYTHON_COMMAND) manage.py uecookie9; \
+	)
+	
