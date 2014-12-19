@@ -13,7 +13,7 @@ Requirements
 
 - `django.contrib.flatpages <https://docs.djangoproject.com/en/dev/ref/contrib/flatpages/>`_
 
-Instalation
+Installation
 ===========
 
 - Install via pip::
